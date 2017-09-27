@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/bookCommon.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/pc.css" media="screen and (min-width:1075px)"/>
+		<link rel="stylesheet" href="css/tablets.css" media="screen and (min-width:768px) and (max-width:1073px)"/>
+		<link rel="stylesheet" href="css/phone.css" media="screen and (max-width:765px)"/>
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js" ></script>
+		<script type="text/javascript" src="js/bookTicket.js" ></script>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<!--头部和轮播    start-->
+		<div id="header">
+			<div class="header-nav clearfix">
+				<div class="header-left">
+					<img src="img/logo.png" width="240px" height="70px" />
+				</div>
+				<div class="header-right">
+					<ul class="pc-table">
+						<li class="on"><a href="../首页.html">首页</a></li>
+						<li><a href="../旅游咨询/lv.html">旅游咨询</a></li>
+						<li><a href="../机票订购/book_index.html">机票订购</a></li>
+						<li><a href="../风景欣赏/scenery.html">风景欣赏</a></li>
+						<li><a href="../关于公司/company.html">关于公司</a></li>
+					</ul>
+					<ul class="phone">
+						<li class="on"><a href="../首页.html">首页</a></li>
+						<li><a href="../旅游咨询/lv.html">咨询</a></li>
+						<li><a href="../机票订购/book_index.html">机票</a></li>
+						<li><a href="../关于公司/company.html">公司</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--banner轮播-->
+			<div class="banner">
+				<div class="pic">
+					<ul>
+						<li style="display: block;">
+							<a href="javascript:void(0)">
+							</a>
+							<div class="info">
+								<p>票务订购</p>
+								<span>各种飞机票、火车票、轮船票的订购热线服务 </span>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+							</a>
+							<div class="info">
+								<p> 订购机票</p>
+								<span>各种飞机票、火车票、轮船票的订购热线服务 </span>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+							</a>
+							<div class="info">
+								<p> 订购机票</p>
+								<span>各种飞机票、火车票、轮船票的订购热线服务 </span>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+							</a>
+							<div class="info">
+								<p> 订购机票</p>
+								<span>各种飞机票、火车票、轮船票的订购热线服务 </span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="btn">
+					<div class="btn_left"><</div>
+					<div class="btn_right">></div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<!-- 头部和轮播部分   end-->
+		
+		<!--内容部分  start-->
+		<div id="content">
+			<div class="main-auto clearfix">
+				<div class="content-left">
+					<div class="ticket-order">
+						<div class="ticket-title">
+							<h2>机票预订</h2>
+						</div>
+						<div class="ticket-content">
+							<p class="title-ways">
+								<span>航程类型</span>
+								<span>单程</span>
+								<span>往返</span>
+							</p>
+							<form>
+								<div class="go">
+									<label for="go-city">出发城市</label>
+									<input type="text" id="go-city" placeholder="城市名"/>
+									<label for="go-time" class="label-left">出发时间</label>
+									<input type="text" id="go-time" placeholder="时间/日期"/>	
+								</div>
+								<div class="return">
+									<label for="return-city">返回城市</label>
+									<input type="text" id="return-city" placeholder="城市名"/>
+									<label for="return-time" class="label-left">返回时间</label>
+									<input type="text" id="return-time" placeholder="时间/日期"/>
+								</div>
+							</form>
+							<div class="order-button">订票</div>
+						</div>
+					</div>
+					
+					<div class="ticket-latest">
+						<div class="ticket-title">
+							<h2>最新机票</h2>
+						</div>
+						<div class="ticket-content">
+							<p class="title-ways">
+								<span>热门城市：</span>
+								<span>昆明</span>
+								<span>上海</span>
+								<span>广州</span>
+								<span>深圳</span>
+								<span>重庆</span>
+								<span>成都</span>
+								<span>杭州</span>
+							</p>
+						</div>
+						<div class="route-list">
+							<ul>
+								<li class="list-nav">						
+									<span>路线</span>
+									<span>日期</span>
+									<span>价格</span>
+									<span>税费</span>
+									<span>餐食</span>
+									<span>航班</span>
+									<span class="order">预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>				
+									<span>北京-成都</span>
+									<span>10-15</span>
+									<span>¥745</span>
+									<span>¥50</span>
+									<span>有</span>
+									<span>春秋航空</span>
+									<span>预定</span>
+								</li>
+								<li>加载更多航班......</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content-right">
+					<div class="classic-recommend">
+						<div class="classic-title">景点推荐</div>
+						<div class="tag">
+							<div class="tag-margin">
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+								<span>曼谷(13)</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="classic-recommend">
+						<div class="classic-title">热卖旅游</div>
+						<div class="tag">
+							<div class="tag-margin">
+								<dl>
+									<dt><img src="img/hot1.jpg"</dt>
+									<dd>曼谷-芭提雅6日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot2.jpg"</dt>
+									<dd>马尔代夫双鱼6日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot3.jpg"</dt>
+									<dd>海南双飞5日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot4.jpg"</dt>
+									<dd>富山大阪东京8日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot5.jpg"</dt>
+									<dd>法瑞意德12日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot6.jpg"</dt>
+									<dd>巴厘岛6日半游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot7.jpg"</dt>
+									<dd>塞舌尔迪拜9日游</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/hot8.jpg"</dt>
+									<dd>花样土耳其10日游</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+					
+			
+					<div class="classic-recommend">
+						<div class="classic-title">旅游百宝箱</div>
+						<div class="tag box">
+							<div class="tag-margin">
+								<dl>
+									<dt><img src="img/trea1.png" width="25px" height="25px"/> </dt>
+									<dd>天气预报</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/trea2.png" width="25px" height="25px"/> </dt>
+									<dd>火车票查询</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/trea3.png" width="25px" height="25px"/> </dt>
+									<dd>航空查询</dd>
+								</dl>
+								<dl>
+									<dt><img src="img/trea4.png" width="25px" height="25px"/> </dt>
+									<dd>地铁线路查询</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div id="footer">
+			<div class="main-auto footer-auto">
+				<div class="footer-top">
+					<div class="footer-left">
+						<h2>合作伙伴</h2>
+						<hr />
+						<ul>
+							<li>途牛旅游网</li>
+							<li>驴妈妈旅游网</li>
+							<li>携程旅游</li>
+							<li>中国青年旅行社</li>
+						</ul>
+					</div>
+					<div class="footer-center">
+						<h2>旅游FAQ</h2>
+						<hr />
+						<ul>
+							<li>旅游合同签订方式？</li>
+							<li>儿童价是基于什么制定的？</li>
+							<li>旅游的线路品质怎么界定的？</li>
+							<li>单房差是什么？</li>
+							<li>旅游保险有那些种类？</li>
+						</ul>
+					</div>
+					<div class="footer-right">
+						<h2>联系方式</h2>
+						<hr />
+						<ul>
+							<li>地址：重庆市沙坪坝区西永微电子产业园</li>
+							<li>总机：023-61691695</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="footer-client">
+				客户端|触屏版|电脑版|
+			</div>
+			<div class="footer-bottom bottom1">
+					Copyright © 2016.Company name All rights reserved | 渝ICP 备120110119 号 | 旅行社经营许可证：L-YC-BK12345
+			</div>
+			<div class="footer-bottom bottom2">
+					Copyright © YCKU 上善云图旅行网|苏ICP备120110119号
+			</div>
+		</div>
+		
+		<script>
+		</script>
+	</body>
+</html>

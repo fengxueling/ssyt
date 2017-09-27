@@ -1,0 +1,218 @@
+	
+			/*     640<=x<=1000*/
+			#header{
+				max-width: 1272px;
+			}
+			.header-left{
+				display: none;
+			}
+			.header-right{
+				float: left;
+				margin-right: 75px;
+				height: 100%;
+				width: 100%;
+			}
+			.header-left img{ 
+			  max-width: 100%;
+			  display: inline-block;
+			  height: auto;
+			 
+			}
+			.header-right ul{
+				height: 100%;
+			}
+			.header-right ul li{
+				float: left;
+				height: 100%;
+				width: 25%;
+				text-align: center;
+				line-height: 54px;
+			}
+			.header-right ul li a{
+			    display: block;
+			    color: #fff;
+			    
+			    height: 100%;
+			    font-size: 20px;
+			   
+			}
+			.pc-table{
+				display: none;
+			}
+			.phone{
+				display: block;
+			}
+			.banner{
+				height: 176px;
+			}
+						@keyframes mov-motto{
+				10%{
+				top: 95%;
+				transform: scale(1.5);
+				}
+				20%{
+				top: 90%;
+				transform: scale(1.4);
+				}
+				30%{
+				top: 85%;
+				transform: scale(1.3);
+				}
+				40%{
+				top: 80%;
+				transform: scale(1.2);
+				}
+				60%{
+				top: 70%;
+				transform: scale(1.1);
+				}
+				80%{
+				top: 60%;
+				transform: scale(1);
+				}
+				100%{
+				top: 50%;
+				transform: scale(0.8);
+				}
+			}
+			/*第二块*/
+			.main-auto{
+			    margin: 0 4%;
+			}
+			.content-left{
+				width: 92.5%;
+			}
+			.content-right{
+				display: none;
+			}
+			form label{
+			    display: block;
+			}
+			form input{
+			    height: 40px;
+			    width: 97%;
+			    border-radius: 5px;
+			    border: 1px solid #CCC;
+		        margin: 15px 0px;
+			}
+			.order-button{
+			    width: 35%;
+			    line-height: 40px;
+			    margin: -0.5% 37%;
+		        margin-bottom: 5%;
+			}
+			.classic-title{
+			    width: 97%;
+			    height: 40px;
+			    background: #FAFAFA;
+			    padding-left: 10px;
+			    font-size: 1.5rem;
+			    font-weight: 200;
+			    line-height: 40px;
+				
+			}
+			
+			.ticket-title h2{
+			    font-size: 1.6rem;
+			}
+			
+			/*最新机票*/
+			.route-list ul li{
+				height: 40px;
+				line-height: 40px;
+				border-right: none;
+			}
+			.route-list ul li span{
+			    line-height: 40px;
+			  
+			}
+			.route-list ul li span:nth-child(1){
+				  width: 20.7%;
+			}
+			.route-list ul li span:nth-child(2){
+				  width: 19.4%;
+			}
+			.route-list ul li span:nth-child(3){
+			        width: 12.8%;
+			        color: #FF6600;
+			}
+			.route-list ul li span:nth-child(4){
+				     width: 9.7%;
+				     display: none;
+			}
+			.route-list ul li span:nth-child(5){
+				    width: 9.7%;
+				    display: none;
+			}
+			.route-list ul li span:nth-child(6){
+				   width: 28.9%;
+			}
+			.route-list ul li.list-nav span:nth-child(7){
+				  line-height: 40px;
+				   
+			}
+			.route-list ul li span:nth-child(7){
+				   width: 11%;
+				   height: 28px;
+				   line-height: 28px; 
+			}
+			
+			
+			/*底部*/
+			#footer{
+				background: #222222;
+				width: 100%;
+				margin-top: 35px;
+			}
+			#footer h2{
+				color: #ccc;
+			}
+			#footer hr{
+				width: 90%;
+			    border: 1px dashed #333;
+			    margin-left: 0;
+			}
+			.footer-top{
+				margin-left: 3%;
+			}
+			.footer-left,.footer-center,.footer-right{
+			    width: 33.1%;
+			    height: 280px;
+			    display: inline-block;
+			    text-align: left;
+			    color: #ccc;
+			    vertical-align: top;
+			    margin-top: 3%;
+			}
+			#footer ul li{
+			    font-size: 18px;
+			    color: #777;
+			    line-height: 2;
+			}
+			 .footer-bottom,.footer-client{
+			    width: 100%;
+			    text-align: center;
+			    color: #777;
+			    font-size: 1rem;
+			    background-color: #000;
+			    border-top: 1px solid #444;
+			}
+			.footer-client{
+				 height: 50px;
+				 line-height: 50px;
+			}
+			.footer-bottom{
+				height: 60px;
+				line-height: 60px;
+			}
+			
+			.footer-client{
+				display: block;
+			}
+			.bottom1{
+				display: none;
+			}
+			.footer-auto{
+				display: none;
+			}
+

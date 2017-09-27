@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style: none;
+	display: block;
+	margin: 0;
+    padding: 0;
+}
+h2{
+	margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #999999;
+}
+.content{
+	background-color: #fff;
+	width: 100%;
+	height: 1194px;
+	margin-top: 15px;
+	
+}
+.atuo-banxin{
+	width: 94%;
+	height: 1194px;
+	margin:0 auto;
+}
+.content-left{
+	float: left;
+	width: 71%;
+	background-color: #fff;
+	height: 1194px;
+	color:#696969;
+}
+.content-left p{
+	line-height: 2;
+    margin: 20px 0;
+}
+.content-left .aboutus{
+	width: 98%;
+	border-bottom: 1px dashed #999;
+	margin-top: 1px;
+}
+.aboutus h2{
+	height: 40px;
+    line-height: 40px;
+    padding: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+.content-left .jieshao{
+	width: 98%;
+	font-size: 20px;
+	height: auto;
+}
+.content-left .tel{
+	width: 98%;
+	font-size: 20px;
+	height: auto;
+}
+.content-right{
+	float: left;
+	background-color: #fff;
+	width: 29%;
+	height: 1194px;
+}
+.right-1{
+	width: 100%;
+	height: 28%;
+	background-color: #fff;
+	border: 1px solid #f0f0f0;
+	
+}
+.right-1-1{
+	background-color: #fafafa;
+}
+.right-1-1 h2{
+	font-size: 20px;
+    font-weight: normal;
+    text-indent: 8px;
+    line-height: 40px;
+    background-color: #FAFAFA;
+    color: #666;
+    text-align: left;
+}
+.ul-1{
+	margin: 10px 5px 10px 15px;
+	float: left;
+	width: 27%;
+}
+.ul-1 .li-1{
+	width: 100%;
+	height: 35px;
+	text-align: left;
+	background-color: #eeeeee;
+    text-indent: 8px;
+    margin-bottom: 4px;
+    line-height: 35px;
+}
+.ul-1 .li-1:hover{
+	background-color: aqua;
+	color: #fff;
+}
+.ul-1 .li-1 a:hover{
+	color: #fff;
+}
+.right-2{
+	width: 100%;
+	height: 670px;
+	background-color: #fff;
+	margin-top: 10px;
+	border: 1px solid #eee;
+}
+.remen{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.ul-2{
+	width: 48%;
+	margin:0 2.5px;
+	float: left;
+}
+.li-2{
+	display: inline-block;
+    padding: 10px 3px 2px 17px;
+    color: #666;
+}
+.li-2 a{
+	text-indent: 15px;
+	display: block;
+}
+.right-3{
+	float: left;
+	width: 100%;
+	height: 150px;
+	background-color: #fff;
+	margin-top: 10px;
+	border: 1px solid #f0f0f0;
+}
+.ul-3{
+	float:left;
+	margin-left: 25px;
+	width: 40.6%;
+}
+.li-3{
+	width:100%;
+	height: 40px;
+	background-color: #EEEEEE;
+	margin-bottom: 15px;
+	padding: 2px 0;
+	text-align: left;
+    text-indent: 5px;
+    line-height: 40px;
+}
+.li-3 img{
+	float: left;
+	padding: 10px 0;
+}

@@ -1,0 +1,208 @@
+	
+			/*     640<=x<=1000*/
+			#header{
+				max-width: 2290px;
+			}
+			.header-left{
+				display: none;
+			}
+			.header-right{
+				float: left;
+				margin-right: 75px;
+				height: 100%;
+				width: 100%;
+			}
+			.header-left img{ 
+			  max-width: 100%;
+			  display: inline-block;
+			  height: auto;
+			 
+			}
+			.header-right ul{
+				height: 100%;
+			}
+			.header-right ul li{
+				float: left;
+				height: 100%;
+				width: 20%;
+				text-align: center;
+				line-height: 70px;
+			}
+			.header-right ul li a{
+			    display: block;
+			    color: #fff;
+			    height: 100%;
+			    font-size: 18px;
+			   
+			}
+			.phone{
+				display: none;
+			}
+			.content{
+				margin-top: 320px;
+				
+			}
+			.right_c{
+				display: none;
+			}
+
+
+/*左半边改全屏*/
+        .back{
+				width: 100%;
+				/*height: 1000px;
+				background-color: #dbdbdb;*/
+			}
+			.content{
+				margin-top: 320px;
+				
+			}
+			.content .left_c{
+	            width: 100%;
+				height: 100%;
+				background-color: gainsboro;
+				float: left;
+			}
+			
+.content .more{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: center;
+	border:1px solid #FFA500;
+	border-radius: 5px;
+	margin-left: 20%;
+	margin-top: 10px;
+}
+			
+			.content .left_c .header_c{
+				width: 98%;
+				height: 80px;
+				/*background-color: red;*/
+				border-bottom: 1px dashed #666666;
+				margin-top: 20px;
+			}
+            .content .left_c .header_c span{
+            	line-height: 80px;
+            	color: black;
+            	font-size: 40px;
+            }
+            .content .left_c .content_c{
+            	margin-top: 20px;
+            	margin-left: 40px;
+            
+            }
+            .content .content_c .content_c1{
+            	background-color: white;
+            	width: 95%;
+            	height: 230px;
+            	margin-bottom: 20px;
+            }
+            .content .content_c1 .left_c1{
+            	float: left;
+            	width: 40%;
+            }
+            .content .content_c1 .left_c1 img{
+            	width: 100%;
+            	height: 230px;
+            }
+            .content .right_c1{
+            	width: 59%;
+            	float: left;
+            	margin-left: 1px;
+            	
+            }
+            .content .right_c1 .right_c11{
+            	float: left;
+            	line-height: 46px;
+            }
+            .content .right_c1 .right_c11 div{
+            	width: 40px;
+            	height: 25px;
+            	margin-top: 10px;
+            	color: green;
+                border-radius: 5px;
+                border: 1px solid green;
+                float: left;
+                line-height: 25px;
+                text-align: center;
+            }
+            .content .right_c1 .right_c12{
+            	/*width: ;*/
+            	/*float: left;
+            	margin-left: 10px;*/
+            	float: right;
+            	margin-right: 1px;
+            	line-height: 46px;
+            }
+            .content .right_c1 .right_c12 h5{
+            	text-decoration:line-through;
+            }
+            .content .right_c1 .right_c12 div{
+            	width: 90px;
+            	height: 50px;
+            	color: white;
+            	background-color: orange;
+                border-radius: 5px;
+                line-height: 50px;
+                text-align: center;
+                box-shadow: 2px 2px 2px cornsilk;
+            }
+            .content .right_c1 .right_c13 span{
+            	color: green;	
+            }
+            .content .right_c1 .right_c13 {
+            	float: left;
+            	margin-top: 20px; 
+            }
+            
+            
+/*尾部       */
+.footer{
+	float: left;
+	background: #222222;
+	width: 100%;
+	margin-top: 35px;
+				
+}
+
+.footer hr{
+	width: 80%;
+	border: 1px dashed #333;
+	margin-left: 0;
+}
+.footer-top{
+	margin-left: 3%;
+}
+.footer-left,.footer-center,.footer-right{
+	width: 32%;
+	height: 180px;
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	vertical-align: top;
+	margin-top: 3%;
+}
+/*.footer-right{
+	display: none;
+}*/
+.footer ul li{
+	font-size: 14px;
+	color: #777;
+	line-height: 2;
+}
+.footer .bottom1{
+	display: none;
+}
+.footer-client,.bottom2{
+	
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #777;
+	background-color: #000;
+	font-size: 16px;
+	border-top: 1px solid #444;
+}     			

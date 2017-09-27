@@ -1,0 +1,289 @@
+			body{
+				background: #F5F5F5;
+			}
+			#header{
+				width: 100%;
+				background: #333;
+			}
+			.header-nav{
+				width: 100%;
+				height: 100%;
+			}
+			.header-right{
+				float: right;
+			}
+			
+			.header-right ul{
+				height: 100%;
+			}
+			.header-right ul li a{
+			    display: block;
+			    color: #fff;
+			    height: 100%; 
+			}
+			.on{
+				background: #000;
+			} 
+			.pnone{
+				display: none;
+			}
+			
+						/*banner轮播*/
+			.banner{
+				position: relative;
+			    width: 100%;
+			    height: 100%;
+			    overflow: hidden;
+			}
+			.pic{
+				width: 100%;
+				height: 100%;
+			}
+			.pic ul{
+				width: 100%;
+				height: 100%;
+			}
+			.pic li{
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			.pic li a{
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			.banner .btn{
+				opacity: 0;
+				transition: 2s;
+			}
+			.banner:hover .btn{
+				opacity: 1;
+				
+			}
+			.banner .btn div{
+				position: absolute;
+				width: 40px;
+				height: 70px;
+				top: 45%;
+			    font-size: 50px;
+    			color: #fff;
+    			cursor: pointer;
+			    background: rgba(0, 0, 0, 0.4);
+			}
+			.banner .btn div:nth-child(1){
+				left: 20px;
+			}
+			.banner .btn div:nth-child(2){
+				right: 20px;
+			}
+			.tab{
+				position: absolute;
+			    bottom: 14px;
+				right: 35px;
+			}
+			.tab div{
+				display: inline-block;
+				width: 6px;
+				height: 6px;
+			    border: 2px solid #fff;
+			    border-color: rgba(255,255,255,0.3);
+			    border-radius: 10px;
+			    margin: 0 10px;
+			    cursor: pointer;
+			}
+			.on{
+				background: #000;
+			}
+			.pic ul li a{
+				background-size: 100% auto;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+			.pic ul li:nth-child(1) a{
+				background-image: url(../img/banner1.jpg);
+			}
+			.pic ul li:nth-child(2) a{
+				background-image: url(../img/banner2.jpg);
+			}
+			.pic ul li:nth-child(3) a{
+				background-image: url(../img/banner3.jpg);
+			}
+			.pic ul li:nth-child(4) a{
+				background-image: url(../img/banner4.jpg);
+			}
+			.info{
+			    position: absolute;
+			    color: #fff;
+			    bottom: 0%;
+			    animation: mov-motto 2s linear forwards;
+			    left: 18%;
+			   
+			    font-weight: 600;
+			}
+			.info p{
+				
+			}
+			.info span{
+				
+			}
+			@keyframes mov-motto{
+				10%{
+				top: 95%;
+				transform: scale(1.5);
+				}
+				20%{
+				top: 90%;
+				transform: scale(1.4);
+				}
+				30%{
+				top: 85%;
+				transform: scale(1.3);
+				}
+				40%{
+				top: 80%;
+				transform: scale(1.2);
+				}
+				60%{
+				top: 70%;
+				transform: scale(1.1);
+				}
+				80%{
+				top: 60%;
+				transform: scale(1);
+				}
+				100%{
+				top: 50%;
+				transform: scale(1.6);
+				}
+			}	
+				
+			/*第二部分*/
+			#content{
+				margin-top: 3%;
+			}
+			.main-auto{
+				max-width: 100%;
+				width: 100%;
+			}
+			.content-left{
+				float: left;
+			}
+			.content-right{
+				float: right;
+			
+			}
+			.title-ways{
+				margin-top: 2%;
+				font-size: 1.2rem;
+			}
+			.title-ways span{
+				margin-right: 20px;
+			}
+			.ticket-title h2{
+			    font-weight: 400;
+		        padding-bottom: 1%;
+			    border-bottom: 1px dashed #666;
+			}
+			.ticket-order{
+				    margin-top: 3%;
+			}
+			.title-ways span:nth-child(2){
+			    background: #458B00;
+			    color: #fff;
+			    padding: 2px 6px;
+			    border-radius: 5px;
+			}
+			form{
+				margin-top: 3%;
+				float: left;
+				width: 100%;
+			}
+			form label{
+				font-size: 20px;
+			    margin-right: 2%;
+			}
+			input::-webkit-input-placeholder{
+				font-size: 18px;
+				font-weight: 100;
+			}			
+			.order-button{
+			    float: right;
+			    background: #FF6600;
+			    font-size: 25px;
+			    color: #fff;
+			    text-align: center;
+			    border-radius: 5px;
+			    cursor: pointer;
+			}
+			
+
+
+			
+
+				/*最新机票*/
+			.ticket-latest {
+			    margin-top: 4%;
+			}
+			.route-list ul{
+				margin-top: 3%;
+			}
+			.route-list ul li{
+				border: 1px solid #ddd;
+				border-bottom: none;
+			}
+			.route-list ul li span{
+				display: inline-block;
+			    font-size: 1.1rem;
+			    height: 100%;
+			    text-align: center;
+			  
+			}
+			.route-list ul li span:nth-child(1){
+				  width: 20.7%;
+			}
+			.route-list ul li span:nth-child(2){
+				  width: 12.4%;
+			}
+			.route-list ul li span:nth-child(3){
+			        width: 10.8%;
+			        color: #FF6600;
+			}
+			.route-list ul li span:nth-child(4){
+				     width: 9.7%;
+			}
+			.route-list ul li span:nth-child(5){
+				    width: 9.7%;
+			}
+			.route-list ul li span:nth-child(6){
+				   width: 21.9%;
+			}
+			.route-list ul li:hover{
+				background: #ddd;
+			}
+			.route-list ul li.list-nav span:nth-child(7){
+				   width: 15%;
+				   height: 100%;
+				   background: none;
+				   color: #666;
+				   
+			}
+			.route-list ul li:last-child{
+				border-bottom: 1px solid #ddd;
+				font-size: 20px;
+				text-align: center;
+			}
+			.route-list ul li.list-nav span:nth-child(3){
+			       color: #666;
+			}
+			.route-list ul li span:nth-child(7){
+				   width: 9%;
+				   background: #FF6600;
+				   color: #fff;
+				   border-radius: 5px;
+				 
+			}
+			.route-list ul li.list-nav span.order{
+				width: 10%;
+			}
+			

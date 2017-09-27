@@ -1,0 +1,98 @@
+			#header{
+				width: 100%;
+				background: #333;
+				height: 70px;
+			}
+			.header-nav{
+				width: 100%;
+				height: 100%;
+			}
+	
+			.on{
+				background: #000;
+			} 
+
+			.banner{
+				width: 100%;
+				height: 315px;
+				position: relative;
+			}
+			li{
+				list-style: none;
+				
+			}
+			.banner ul li img{
+			  max-width: 100%;
+			  display: inline-block;
+			  height: auto;
+			}
+			.banner .pic{
+				width: 100%;
+				height: 320px;
+				overflow: hidden;
+				
+			}
+			.banner .pic ul{
+				width: 10000px;
+				height: 100%;
+				overflow: hidden;
+				margin-left: -1366px;
+			}
+			.banner .pic ul li img{
+				max-height: 100%;
+				height: auto;
+				display: inline-block;
+			}
+			.banner .pic ul li{
+				
+				float: left;
+				position: relative;
+			}
+			.banner .btn div{
+				position: absolute;
+				width: 30px;
+				height: 70px;
+				cursor: pointer;
+				font-size: 50px;
+				top: 40%;
+			}
+			.banner .btn div:nth-child(1){
+				left: 0;
+			}
+			.banner .btn div:nth-child(2){
+				right: 0;
+			}
+			.tab{
+				position: absolute;
+				bottom: 0;
+				left: 40%;
+				opacity: 0;
+			}
+			.tab div{
+				width: 10px;
+				height: 10px;
+				background: #000000;
+				border-radius: 50%;
+				float: left;
+				margin: 0 20px;
+			}
+			.info{
+				position: absolute;
+				display: inline-block;
+				width: 200px;
+			    top: 20%;
+    			left: 12%;
+    			font-size: 16px;
+			    animation: mov-motto .5s forwards;
+			}
+			.pnone{
+				display: none;
+			}
+			@keyframes mov-motto{
+				100%{
+					top: 100px;
+				}
+			}
+			.info span{
+				color: #fff;
+			}
